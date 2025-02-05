@@ -1,0 +1,35 @@
+In Linux , the file system is organized into various folders that have specific purpose.
+
+/(Root):
+The topmost folder .Everything in the system is either in the root folder or inside subfolders of it.
+
+/bin(Bineris):
+Contains essential command binaries(programs) like ls ,cat ,cp ,mv etc..These commands are used by both users and system admins.
+
+/usr:
+Contains user-related programs and data.Its where you find most software installed on your system that isnt required for the system to run,
+like applications ,libraies and other shared resources.Its often divided into subfolders like /usr/bin for bineries and /usr/lib for libraries..
+
+/var:
+Stands for "variable" and contains files that change frequently , like logs,cache files or databses..
+For eg, /var/log stores system logs and /var/tmp stores temporary files that should persist even after a reboot.
+
+/tmp:
+Contains temporary files used by the system or applications.These files are often deleted when the system reboots.
+
+/etc:
+Contains configuratio files for the system and installed software.
+For eg , it has the files like /etc/passwd for user account information.
+
+/home:
+Contains the personal directories for the users.For eg ,/home/username stores files,documents and configurations  specific to each user.
+
+
+/sys:
+A virtual file system that provides information and control over the kernal and system devices.Its not used for regular files but for interaction with system hardware
+
+/dev :
+contains device files that represent hardware devices (like hard drivers,USBs or even virtual devices).FOr eg, /dev/sda could represent a hard drive.
+
+/lib: 
+Contains libraries needed by programs in /bin and /usr/bin to function.These liraries provide core functionality to the software.
